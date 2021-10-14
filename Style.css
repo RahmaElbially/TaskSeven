@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}/* Section Top */
+.top{
+    background-color:#fcf4ef;
+    display: flex;
+    height: 80px;
+}/* Image Of Section Top */
+.top img{
+    height: 60px;
+    padding: 10px;
+}/* List Of Section Top */
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+    box-sizing: border-box;
+}/* Links In Section Top */
+.top a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.first{
+    margin-left: 950px;
+}
+.top a:hover{
+    text-decoration: underline;
+    color:#C71585;
+}/* Section One Background */
+.one{
+    background-image: url(download\ \(4\).jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+}/* H2 In Section One*/
+.one h2{
+    font-size: 40px;
+    color: #FFF;
+}/* P In Section One */
+.one p{
+    font-size: 30px;
+    color: #FFF;
+    margin: 20px 0px;
+}/* Buttons In Section One */
+.one button{
+    height: 40px;
+    width: 150px;
+    background-color: #FFF;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #FFF;
+}
+.one button:hover{
+    cursor: grab;
+    background-color: #D8BFD8;
+}/* Paragraph Div*/
+.paragraph{
+    height: 170px;
+    text-align: center;
+    margin-top: 60px;
+}
+.paragraph p{
+    margin-top: 20px;
+    font-size: 20px;
+}/* Images Section*/
+.images img{
+    height: 250px;
+    width: 360px;
+}
+.images div{
+    display: inline;
+    width: 350px;
+    height: 340px;
+    margin-right: 29px;
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.img1 , .img2{
+    margin-left: 3px;
+}/* H2 In Images Section */
+.images h2{
+   color: #FF4500;
+   margin-top: 7px;
+}/* P In Images Section */
+.images p{
+    margin-top: 7px;
+    font-size: 20px;
+}/* Paragraph 2 Div */
+.paragraph2{
+    height: 170px;
+    text-align: center;
+    margin-top: 60px;
+}
+.paragraph2 p{
+    margin-top: 20px;
+    font-size: 20px;
+}/* Images 2 Section */
+.images2 img{
+    height: 250px;
+    width: 360px;
+}
+.images2 div{
+    display: inline;
+    width: 350px;
+    height: 340px;
+    margin-right: 29px;
+    text-align: center;
+}
+.images2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.img1 , .img2{
+    margin-left: 3px;
+}/* H2 In Images 2 Section */
+.images2 h2{
+   color: #FF4500;
+   margin-top: 7px;
+}/* P In Images 2 Section */
+.images2 p{
+    margin-top: 7px;
+    font-size: 20px;
+}
+/* Paragraph 3 Div */
+.paragraph3{
+    height: 170px;
+    text-align: center;
+    margin-top: 60px;
+}
+.paragraph3 p{
+    margin-top: 20px;
+    font-size: 20px;
+}/* Second Section */
+.second{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    height: 350px;
+}/* Map *//*
+.second .map{
+    margin-left: 800px;
+    box-sizing: border-box;
+    padding-top:20px ;
+}
+.map img{
+    height: 300px;
+}*/
+/* Iframe Map */
+iframe{
+    margin-left: 830px;
+    box-sizing: border-box;
+    padding-top:20px ;
+}
+/* p */
+.second .form p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}/* Form */
+.second form{
+    width: 150px;
+    padding-left: 10px;
+}
+label{
+    font-size: 17px;
+    box-sizing: border-box;
+}
+input[type=text],input[type=email]{
+    width: 300px;
+    height: 30px;
+    margin-top: 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+textarea{
+    border-radius: 3px;
+    margin-top: 7px;
+}
+input[type=submit]{
+    width: 120px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+input[type=submit]:hover{
+    cursor: grab;
+    background-color: #D8BFD8;
+}/* Nav 2*/
+.bottom{
+    background-color:  red;
+    display: flex;
+    height: 80px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+    box-sizing: border-box;
+}/* Links In Section Top */
+.bottom a{
+    text-decoration: none;
+    margin-right: 45px;
+    color: #FFF;
+    font-size: 20px;
+}
+.first{
+    margin-left: 550px;
+}
+.bottom a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
